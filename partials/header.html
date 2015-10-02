@@ -1,3 +1,11 @@
-<div class="page-header">
-  <h3>Nick's Flicks</h3>
+<!-- header partial -->
+<div class="row" ng-init="day = true">
+    <div class="col-md-12">
+        <h1>Nick's flicks</h1>
+        <h4>Let's talk about some movies!! </h4>
+        <!-- toggle spot for what day/night mode buttons ?!?!  -->
+        <button ng-show="day" ng-click="day= !day" class="btn btn-sm btn-primary" night-mode>Night Mode</button>
+        <button ng-show="!day" ng-click= "day = !day" class="btn btn-sm btn-primary" night-mode>Day Mode</button>
+        <hr>
+    </div>
 </div>
