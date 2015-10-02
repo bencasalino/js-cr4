@@ -4,4 +4,8 @@
 
 .inverted {
 	filter: invert(100%);
-}	
+}
+
+
+/* maybe this will work?! */
+/*-webkit-filter: invert(100%);*/
