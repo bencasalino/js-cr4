@@ -1,4 +1,4 @@
-movies.factory("ReviewsFactory", function ReviewsFactory() {
+nicksFlix.factory("ReviewsFactory", function ReviewsFactory() {
     var factory = {};
     factory.reviews = [
         // hard code the 6 examples here

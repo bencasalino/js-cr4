@@ -22,11 +22,8 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
         templateUrl: "partials/header.html"
         // controller: "HeadersCtrl"
       },
-      'list': {
-        templateUrl: "partials/list.html"
-      },
       'body': {
-        templateUrl: "partials/review.html",
+        templateUrl: "partials/list.html",
         controller: "ReviewsCtrl"
       }
     }
